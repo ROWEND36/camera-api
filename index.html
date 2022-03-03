@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Capture</title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="main">
+      <video id="preview" autoplay></video>
+      <button id="btn-capture" disabled>Start Capture</button>
+    </div>
+    <div class="responsive-right">
+      <img id="img-preview"/>
+      <span id="count"></span>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
+  <script src="./js/imageCapture.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>
